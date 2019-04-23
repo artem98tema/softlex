@@ -3,17 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link type="text/css" rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--<link type="text/css" rel="stylesheet" href="style.css">-->
     <link href="https://fonts.googleapis.com/css?family=Neucha&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style type="text/css">
+    	@media (max-width: 600px){
+    		.main{
+    			display: flex;
+    			flex-direction: column;
+    		}
+    	}
+        .he{
+           top:50%;
+        }
+        .nav__link{
+            color: #FFFFFF;
+            font-family: 'Neucha';
+            font-size: 32px;
+        }
+        .nav__link:hover{
+            color: #6BFFCA;
+        }
+    </style>
 </head>
 <body style="background: #282227;">
-<div class="wrapper">
-    <div class="container">
-        <div class="main">
-            <img class="main__logo" src="./img/Exclude.png">
-            <nav class="nav__main nav">
+
+    <div class="container-fluid">
+        <div style="padding-top: 20%" class="row justify-content-center  align-items-center">
+            <div class="col-lg-6 col-sm-12"><img width="100%" class="main__logo" src="./img/Exclude.png"></div>
+
+            <nav class="nav__main nav ">
                 <ul class="nav__list">
-                    <li class="nav__item"><div class="qwe"> <a class="nav__link" href="about__v2.html">О нас</a></div> </li>
+                    <li class="nav__item"> <a class="nav__link" href="about__v2.html">О нас</a> </li>
                     <li class="nav__item"><a class="nav__link" href="album.html">Портфолио</a></li>
                     <li class="nav__item"><a class="nav__link" href="contacts.html">Контакты</a></li>
                 </ul>
@@ -21,6 +45,6 @@
 
         </div>
     </div>
-</div>
+
 </body>
 </html>

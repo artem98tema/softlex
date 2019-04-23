@@ -4,7 +4,56 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
-<body>
+<style>
+    li{
+        list-style-type: none;
+    }
+    body{
+        background: #282227;
+        font-size: 3em;
+    }
+    a{
+        color: #FFFFFF;
+    }
+    .container{
+        text-align: center;
+    }
+    li{
+        padding-bottom: 30px;
+    }
+    .logo{
+        position: fixed;
+        top:50px;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        position: absolute;
+        width: 300px;
+    }
+    .list{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .contact{
+        position: fixed;
+        bottom: 10px;
+        left: 50%;
+        transform: translate(-50%,-50%);
 
+    }
+</style>
+<body>
+<div class="container">
+<div class="main">
+    <a class="logo"><img class="logo" src="img/logo.png"></a>
+    <ul class="list">
+        <li><a class="link__main">о нас</a></li>
+        <li><a class="link__main">портфолио</a></li>
+        <li><a class="link__main">контакты</a></li>
+    </ul>
+    <a class="contact">+7 (916) 111-90-99</a>
+</div>
+</div>
 </body>
 </html>
