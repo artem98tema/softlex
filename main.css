@@ -13,12 +13,11 @@ h2{
     margin-left: 15px;
 
 }
-.foto:last-child{
-    margin-bottom: 0;
-}
+
 .who{
     color: black;
     padding-top: 10px;
+    font-family: 'Neucha';
 }
 .comment__text{
     padding-bottom: 10px;
@@ -26,6 +25,7 @@ h2{
 .comment__in{
     background: #F2F2F2;
     margin-bottom: 30px;
+    margin-left: 15px;
 }
 .comment__in:last-child{
     margin-bottom: 0;
@@ -62,6 +62,9 @@ span{
     font-family: 'Neucha';
     font-size: 26px;
 
+}
+.button:hover{
+    background: linear-gradient(0deg, rgba(89, 250, 160, 0.5), rgba(89, 250, 160, 0.5)), linear-gradient(147.61deg, #55FF9D 0%, #D67FFF 99.98%);
 }
 form{
     margin-bottom: 15px;
