@@ -1,0 +1,27 @@
+.nav__link{
+    font-size: 32px;
+    color: #FFFFFF;
+    font-family: 'Neucha';
+}
+.header{
+    background: #282227;
+}
+.contact__number{
+    font-size: 32px;
+    font-family: 'Neucha';
+    color: #FFFFFF;
+    justify-content: center;
+}
+.contacts{
+    justify-content: center;
+}
+.nav__link:hover{
+    color:#6BFFCA;
+}
+.contact__number:hover{
+    color: #6BFFCA;
+    text-decoration: underline;
+}
+.navig{
+    display: flex;
+}
